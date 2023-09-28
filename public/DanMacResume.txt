@@ -1,0 +1,23 @@
+ 
+      Daniel MacDonald's Resume
+      Front-end Techs 
+     
+      HTML
+      CSS
+      JavaScript
+      jQuery
+      Responsive Design
+      React
+      Bootstrap
+     
+     Back-end Techs
+     
+      APIs
+      Node
+      Express
+      MySQL, Sequelize
+      MongoDB, Mongoose
+      REST
+      GraphQl
+     
+ 

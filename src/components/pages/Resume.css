@@ -1,0 +1,12 @@
+h1,h2,li{
+    color:white;
+}
+li{
+    list-style-type: disc;
+}
+.resume{
+    margin: 30px 0px;
+}
+.resume, li, a{
+    margin-left: 50px;
+}
