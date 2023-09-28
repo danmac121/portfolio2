@@ -11,7 +11,7 @@ export default function ProjectBox({ backgroundImage, liveSiteURL, githubURL }) 
           <div className="project-overlay">
               <a href={liveSiteURL}  className="project-link live-site">
                  
-                  <img src="./assets/circle.png" alt="Live Site" />
+                  <p className="name">Channel Hopper</p>
               </a>
               <a href="https://github.com/brian-wastle/Channel-Hopper"  className="project-link github">
                  
@@ -23,7 +23,7 @@ export default function ProjectBox({ backgroundImage, liveSiteURL, githubURL }) 
           <div className="project-overlay">
               <a href="https://radiant-ravine-01589-dee562bfc599.herokuapp.com"  className="project-link live-site">
                  
-                  <img src="./assets/circle.png" alt="Live Site" />
+                  <p className="name">Note App</p>
               </a>
               <a href="https://github.com/danmac121/NoteApp"  className="project-link github">
                  
@@ -35,7 +35,7 @@ export default function ProjectBox({ backgroundImage, liveSiteURL, githubURL }) 
           <div className="project-overlay">
               <a href="https://lit-caverns-97353-16e931334f59.herokuapp.com"  className="project-link live-site">
                  
-                  <img src="./assets/circle.png" alt="Live Site" />
+              <p className="name">Text Editor</p>
               </a>
               <a href="https://github.com/danmac121/textEditor"  className="project-link github">
                  
@@ -47,7 +47,7 @@ export default function ProjectBox({ backgroundImage, liveSiteURL, githubURL }) 
           <div className="project-overlay">
               <a href="https://pb1983.github.io/Project1/"  className="project-link live-site">
                  
-                  <img src="./assets/circle.png" alt="Live Site" />
+              <p className="name">BrewJoke</p>
               </a>
               <a href="https://github.com/danmac121/Project1"  className="project-link github">
                  
@@ -59,7 +59,7 @@ export default function ProjectBox({ backgroundImage, liveSiteURL, githubURL }) 
           <div className="project-overlay">
               <a href="https://danmac121.github.io/WeatherChecker/"  className="project-link live-site">
                  
-                  <img src="./assets/circle.png" alt="Live Site" />
+              <p className="name">Weather Checker</p>
               </a>
               <a href="https://github.com/danmac121/WeatherChecker"  className="project-link github">
                  
@@ -71,7 +71,7 @@ export default function ProjectBox({ backgroundImage, liveSiteURL, githubURL }) 
           <div className="project-overlay">
               <a href={liveSiteURL}  className="project-link live-site">
                  
-                  <img src="./assets/circle.png" alt="Live Site" />
+              <p className="name">This site</p>
               </a>
               <a href="https://github.com/danmac121/portfolio2"  className="project-link github">
                  

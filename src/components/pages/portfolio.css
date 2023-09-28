@@ -55,3 +55,7 @@
     height: 100px;
 }
 
+.name{
+    text-decoration: none;
+    color: black;
+}
