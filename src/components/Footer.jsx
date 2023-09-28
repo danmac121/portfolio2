@@ -4,15 +4,15 @@ const Footer = () => {
         <footer>
              <a href="https://github.com/danmac121"  className="">
                  
-                 <img src="./assets/git.png" alt="GitHub Repo" />
+                 <img src="/public/git.png" alt="GitHub" />
              </a>
              <a href="https://www.linkedin.com/in/daniel-macdonald-289946280/"  className="">
                  
-                 <img src="./assets/linked.png" alt="GitHub Repo" />
+                 <img src="/public/linked.png" alt="linked-in" />
              </a>
              <a href="https://stackoverflow.com/users/22648176/dan-mac"  className="">
                  
-                 <img src="./assets/stack.png" alt="GitHub Repo" />
+                 <img src="/public/stack.png" alt="Stack Overflow" />
              </a>
         </footer>
     );
