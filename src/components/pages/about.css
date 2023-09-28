@@ -1,0 +1,19 @@
+img{
+    height:100px;
+    width: 100px;
+    border-radius: 50px;
+    margin-bottom:50px;
+}
+.aboutContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+    width: 60%;
+    margin-left: 20%;
+}
+.aboutTitle, .aboutText{
+    color: white;
+    margin-bottom: 30px;
+}

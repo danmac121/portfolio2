@@ -1,55 +1,58 @@
-
+import './NavTabs.css'
 function NavTabs({ currentPage, handlePageChange }) {
   return (
-    <ul className="nav nav-tabs">
+    <header className="header" >
+      <h1 className="name">Daniel MacDonald</h1>
+
+    <ul className="navList">
       
-      <li className="nav-item">
+      <li className="navLink">
         <a
           href="#about"
           onClick={() => handlePageChange('About')}
           
 
-          className={currentPage === 'About' ? 'nav-link active' : 'nav-link'}
+          className={currentPage === 'About' ? 'active' : 'incative'}
         >
           About Me
         </a>
       </li>
-      <li className="nav-item">
+      <li className="navLink">
         <a
           href="#portfolio"
           onClick={() => handlePageChange('Portfolio')}
           
 
-          className={currentPage === 'Portfolio' ? 'nav-link active' : 'nav-link'}
+          className={currentPage === 'Portfolio' ? 'active' : 'inactive'}
         >
           Portfolio
         </a>
       </li>
-      <li className="nav-item">
+      <li className="navLink">
         <a
           href="#contact"
           
 
           onClick={() => handlePageChange('Contact')}
-          className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}
+          className={currentPage === 'Contact' ? 'active' : 'inactive'}
         >
           Contact
         </a>
       </li>
-      <li className="nav-item">
+      <li className="navLink">
         <a
           href="#blog"
           onClick={() => handlePageChange('Blog')}
           
 
-          className={currentPage === 'Blog' ? 'nav-link active' : 'nav-link'}
+          className={currentPage === 'Blog' ? 'active' : 'inactive'}
         >
           Resume
         </a>
       </li>
      
     </ul>
-    
+    </header>
   );
 }
 
